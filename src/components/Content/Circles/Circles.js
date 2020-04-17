@@ -5,7 +5,6 @@ const Circles = (props) => {
 
     const [circles] = useState(getNumbersArray(36));
 
-
     const selectCircle = (selectedPosition) => {
         if (isEqual(props.autoSelectedPosition, selectedPosition)) {
             props.incrementScore();
