@@ -3,7 +3,9 @@ import './Button.css';
 
 const Button = (props) => {
     return (
-        <button onClick={() => props.buttonClickHandler()}>{props.name}</button>
+        <button
+            disabled={props.disabled}
+            onClick={() => props.buttonClickHandler()}>{props.name}</button>
     );
 };
 
