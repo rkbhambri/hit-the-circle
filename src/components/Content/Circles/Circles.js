@@ -8,11 +8,11 @@ const Circles = (props) => {
 
     const selectCircle = (selectedPosition) => {
         if (isEqual(props.autoSelectedPosition, selectedPosition)) {
-            props.incrementScore()
+            props.incrementScore();
+            props.changeAutoSelectedPosition();
         } else {
             props.decrementScore();
         }
-        props.changeAutoSelectedPosition();
     };
 
     const getCircles = () => {
@@ -29,7 +29,6 @@ const Circles = (props) => {
     };
 
     console.log('==selectedPosition====', props.autoSelectedPosition);
-
 
     return (
         <div className="circle-wrapper">
