@@ -1,0 +1,15 @@
+
+.content {
+    text-align: center;
+    width: 30%;
+    padding: 0% 35%;
+}
+
+.content .circle {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 10px;
+}
