@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hit-the-circle/static/css/main.72b8aa6f.chunk.css",
+    "main.css": "/hit-the-circle/static/css/main.1ad69f77.chunk.css",
     "main.js": "/hit-the-circle/static/js/main.76773fe0.chunk.js",
     "main.js.map": "/hit-the-circle/static/js/main.76773fe0.chunk.js.map",
     "runtime-main.js": "/hit-the-circle/static/js/runtime-main.ce7fb179.js",
@@ -8,15 +8,15 @@
     "static/js/2.65995570.chunk.js": "/hit-the-circle/static/js/2.65995570.chunk.js",
     "static/js/2.65995570.chunk.js.map": "/hit-the-circle/static/js/2.65995570.chunk.js.map",
     "index.html": "/hit-the-circle/index.html",
-    "precache-manifest.df47950c15105944108607630f21cd5c.js": "/hit-the-circle/precache-manifest.df47950c15105944108607630f21cd5c.js",
+    "precache-manifest.da57235e79e8474e47134ec66bc37fb6.js": "/hit-the-circle/precache-manifest.da57235e79e8474e47134ec66bc37fb6.js",
     "service-worker.js": "/hit-the-circle/service-worker.js",
-    "static/css/main.72b8aa6f.chunk.css.map": "/hit-the-circle/static/css/main.72b8aa6f.chunk.css.map",
+    "static/css/main.1ad69f77.chunk.css.map": "/hit-the-circle/static/css/main.1ad69f77.chunk.css.map",
     "static/js/2.65995570.chunk.js.LICENSE.txt": "/hit-the-circle/static/js/2.65995570.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ce7fb179.js",
     "static/js/2.65995570.chunk.js",
-    "static/css/main.72b8aa6f.chunk.css",
+    "static/css/main.1ad69f77.chunk.css",
     "static/js/main.76773fe0.chunk.js"
   ]
 }
