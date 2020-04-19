@@ -6,16 +6,21 @@ import Circles from './Circles/Circles';
 import Controls from './Controls/Controls';
 import './Content.css';
 
+var interval;
+
 const Content = (props) => {
 
     const [score, setScore] = useState(0);
     const [autoSelectedPosition, setAutoSelectedPosition] = useState(0);
 
     const startGame = () => {
-        setAutoSelectedPosition(getRandomNumber(36));
+        interval = setInterval(() => {
+            setAutoSelectedPosition(getRandomNumber(36));
+        }, 1000);
     };
 
     const stopGame = () => {
+        clearInterval(interval);
         alert('Your final score is ' + score);
         setScore(0);
         setAutoSelectedPosition(0);

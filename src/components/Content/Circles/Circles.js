@@ -8,7 +8,7 @@ const Circles = (props) => {
     const selectCircle = (selectedPosition) => {
         if (isEqual(props.autoSelectedPosition, selectedPosition)) {
             props.incrementScore();
-            props.changeAutoSelectedPosition();
+            // props.changeAutoSelectedPosition();
         } else {
             props.decrementScore();
         }
@@ -16,12 +16,15 @@ const Circles = (props) => {
 
     const getCircles = () => {
         return (
-            circles.map(item => {
+            circles.map((item, index) => {
                 return (
                     <React.Fragment key={item}>
-                        <div className="circle" onClick={() => !isEqual(props.autoSelectedPosition, 0) ? selectCircle(item) : ''}></div>
+                        <div
+                            className="circle"
+                            style={{ backgroundColor: props.autoSelectedPosition === (index + 1) ? '#00bb00' : '' }}
+                            onClick={() => !isEqual(props.autoSelectedPosition, 0) ? selectCircle(item) : ''}></div>
                         {item % 6 === 0 && <br />}
-                    </React.Fragment >
+                    </React.Fragment>
                 );
             })
         );
